@@ -74,6 +74,10 @@ width: 200px;
     max-width: 100%;
     margin-top: 10px;
 }
+#place-time-estadio img {
+    max-width: 100%;
+    margin-top: 10px;
+}
 .btn-outline-light {
     cursor: pointer;
     color: #ffde20;
