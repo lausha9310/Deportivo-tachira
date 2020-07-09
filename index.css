@@ -78,6 +78,11 @@ width: 200px;
     max-width: 100%;
     margin-top: 10px;
 }
+#place-time-estadio {
+    background-color: #282a2b;
+    color: #ffde20;
+    text-align: justify;
+}
 .btn-outline-light {
     cursor: pointer;
     color: #ffde20;
@@ -119,4 +124,64 @@ width: 200px;
 .icofont-instagram {
     cursor: pointer;
     color: #ffde20;
+}
+#place-time-libertadores {
+    background-color: #282a2b;
+    color: #ffde20;
+    text-align: justify;
+}
+#place-time-libertadores img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+#place-time-libertadores1 {
+    background-color: #282a2b;
+    color: #ffde20;
+    text-align: justify;
+}
+#place-time-libertadores1 img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+.fixIMG2004 {
+    padding-right: 0;
+}
+.icofont-win-trophy {
+    color: #ffde20;
+}
+.icofont-users-social {
+    color: #ffde20;
+}
+.icofont-goal {
+    color: #ffde20;
+}
+#place-time-fotos {
+    background-color: #282a2b;
+    color: #ffde20;
+    text-align: center;
+}
+#place-time-fotos img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+.btn-block {
+    color: #ffde20;
+    border-color: #ffde20;
+    background-color: #282a2b;
+    text-align: center;
+}
+.btn-block:hover {
+    color: #282a2b;
+    border-color: #ffde20;
+    background-color: #ffde20;
+}
+.btn-block:active {
+    color: #282a2b;
+    border-color: #ffde20 !important;
+    background-color: #ffde20 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-block:focus {
+    box-shadow: none;
 }
