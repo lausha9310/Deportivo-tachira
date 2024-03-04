@@ -323,25 +323,38 @@
           </div>
           <div class="row">
             <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-3">
-              <form id="forml" action="registrar.html" method="post" class="form-register" onsubmit="return validar();">
+              <form id="myform" action="registrar.html" method="post" class="form-register">
                 <div class="form-row">
                   <div class="form-group col-12 col-md-6 pb-1">
                     <input type="text" id="nombre" class="form-control" placeholder="Nombre">
                   </div>
                   <div class="form-group col-12 col-md-6 pb-1">
-                    <input type="text" id="apelledo" class="form-control" placeholder="Apellido" required>
+                    <input type="text" id="apellido" class="form-control" placeholder="Apellido">
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col">
-                    <textarea name="text" class="form-control form-control-lg" placeholder="Comentanos tu experiencia:"></textarea>
+                    <textarea name="text" id="comentario" class="form-control form-control-lg" placeholder="Comentanos tu experiencia:"></textarea>
                     <small class="form-text text-muted">
                     </small>
                   </div>
                 </div>
+                <!-- Toast para mostrar un mensaje después de enviar el formulario -->
+                <div class="toast" id="miToast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);  max-width: 300px; margin: 0 auto">
+                    <div class="toast-header">
+                        <strong class="mr-auto">Mensaje</strong>
+                        <button type="button" class="ml-2 mb-3 close" data-dismiss="toast" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        ¡Formulario enviado con éxito!
+                    </div>
+                </div>
+
                 <div class="form-row">
                   <div class="col">
-                    <button type="button" class="btn btn-tachira btn-block" onclick="validar()" style="background-color: #282a2b; color: #ffde20;">Enviar</button>
+                    <button type="submit" class="btn btn-tachira btn-block" onclick="validar()" style="background-color: #282a2b; color: #ffde20;">Enviar</button>
                   </div>
                 </div>
               </form>
@@ -366,7 +379,7 @@
                 </div>
          </div>
      </footer>
-     
+      <script src="script.js"></script>
 <!-- Start of Async Callbell Code -->
 <script>
   window.callbellSettings = {
